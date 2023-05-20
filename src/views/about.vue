@@ -7,8 +7,8 @@
 </template>
 
 <script lang="ts" setup>
-import useDemoStore from '@/store/demo';
 import { storeToRefs } from 'pinia';
+import useDemoStore from '@/store/demo';
 
 const demoStore = useDemoStore();
 const { counter } = storeToRefs(demoStore);

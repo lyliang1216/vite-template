@@ -1,5 +1,5 @@
-import { defineStore } from 'pinia';
 import { ref } from 'vue';
+import { defineStore } from 'pinia';
 
 const useDemoStore = defineStore('demo', () => {
   const counter = ref(0);
